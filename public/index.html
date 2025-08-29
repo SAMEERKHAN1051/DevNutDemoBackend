@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Welcome | Banss Tech</title>
+    <style>
+      body {
+        margin: 0;
+        font-family: "Segoe UI", sans-serif;
+        background: #f4f4f4;
+        color: #333;
+      }
+
+      header {
+        background-color: #004080;
+        color: white;
+        padding: 2rem 1rem;
+        text-align: center;
+      }
+
+      main {
+        padding: 2rem;
+        max-width: 800px;
+        margin: auto;
+        background: white;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        margin-top: -40px;
+        position: relative;
+        z-index: 2;
+      }
+
+      h1 {
+        font-size: 2.5rem;
+        margin-bottom: 0.5rem;
+      }
+
+      p {
+        font-size: 1.1rem;
+        line-height: 1.6;
+      }
+
+      footer {
+        text-align: center;
+        padding: 1rem;
+        background-color: #e0e0e0;
+        margin-top: 2rem;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <img src="./logo.png" alt="Banss Tech Logo" style="max-height: 80px; margin-bottom: -2rem;" />
+      <h1>Welcome to Banss Tech</h1>
+      <p>Innovating the future, one line of code at a time</p>
+    </header>
+
+    <main>
+      <h2>Hello, I'm Sameer 👋</h2>
+      <p>
+        I’m proud to welcome you to <strong>Banss Tech</strong> — a company
+        focused on crafting modern, efficient, and scalable software solutions.
+        Whether you're looking for web design, app development, or full-stack
+        digital innovation, you've come to the right place.
+      </p>
+      <p>
+        Explore our services, discover what we can build together, and let’s
+        shape something extraordinary.
+      </p>
+    </main>
+
+    <footer>
+      &copy; <span id="year"></span> Banss Tech. All rights reserved.
+    </footer>
+
+    <script>
+      document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+  </body>
+</html>

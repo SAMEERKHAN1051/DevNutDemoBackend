@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>404 Not Found | Banss Tech</title>
+    <style>
+      body {
+        margin: 0;
+        font-family: "Segoe UI", sans-serif;
+        background: #f4f4f4;
+        color: #333;
+      }
+
+      header {
+        background-color: #004080;
+        color: white;
+        padding: 2rem 1rem;
+        text-align: center;
+      }
+
+      main {
+        padding: 2rem;
+        max-width: 800px;
+        margin: auto;
+        background: white;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        margin-top: -40px;
+        position: relative;
+        z-index: 2;
+      }
+
+      h1 {
+        font-size: 3rem;
+        color: #e74c3c;
+        margin-bottom: 1rem;
+      }
+
+      p {
+        font-size: 1.1rem;
+        line-height: 1.6;
+      }
+
+      a {
+        display: inline-block;
+        margin-top: 1.5rem;
+        text-decoration: none;
+        background-color: #004080;
+        color: white;
+        padding: 0.6rem 1.2rem;
+        border-radius: 4px;
+        transition: background-color 0.3s ease;
+      }
+
+      a:hover {
+        background-color: #0066cc;
+      }
+
+      footer {
+        text-align: center;
+        padding: 1rem;
+        background-color: #e0e0e0;
+        margin-top: 2rem;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <img src="./logo.png" alt="Banss Tech Logo" style="max-height: 80px; margin-bottom: -2rem;" />
+      <h1>Oops! Page Not Found</h1>
+      <p>Looks like you've reached a missing link at Banss Tech</p>
+    </header>
+
+    <main>
+      <h2>Hi, I'm Sameer Khan 👋</h2>
+      <p>
+        The page you're looking for doesn't exist or may have been moved.
+        Don't worry, we're here to help guide you back.
+      </p>
+      <p>
+        Click the button below to return to the homepage and explore the world
+        of digital innovation with <strong>Banss Tech</strong>.
+      </p>
+      <a href="/">Go to Homepage</a>
+    </main>
+
+    <footer>
+      &copy; <span id="year"></span> Banss Tech. All rights reserved.
+    </footer>
+
+    <script>
+      document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+  </body>
+</html>
